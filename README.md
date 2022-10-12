@@ -1,4 +1,5 @@
 # simple-cache-service
+[![Maven Package](https://github.com/mhmtonrn/simple-cache-service/actions/workflows/maven-publish.yml/badge.svg?branch=master)](https://github.com/mhmtonrn/simple-cache-service/actions/workflows/maven-publish.yml)
 
 run with docker
 
