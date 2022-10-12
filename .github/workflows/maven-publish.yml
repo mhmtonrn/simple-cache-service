@@ -30,11 +30,7 @@ jobs:
 
     - name: Build with Maven
       run: mvn -B package --file pom.xml
-      
-      
-    - name: Publish To Docker Image
-      run: docker push monar2/simple-cache-service
-
+    
       env:
         GITHUB_TOKEN: ${{ github.token }}
         
