@@ -6,7 +6,7 @@ on:
 
 jobs:
 
-  build:
+  publish-docker-hub:
 
     runs-on: self-hosted
 
