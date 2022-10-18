@@ -1,7 +1,8 @@
 package com.sonfengine.cache.simplecacheservice.api;
 
-import com.softengine.cache.core.LocalCache;
 import com.sonfengine.cache.simplecacheservice.model.CacheModel;
+import com.sonfengine.cache.simplecacheservice.service.LocalCache;
+
 import lombok.ToString;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
