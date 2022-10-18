@@ -5,6 +5,7 @@ import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
+import java.util.Set;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -50,6 +51,10 @@ public class LocalCache {
                 CacheCore.remove(key);
             }
         },delay);
+    }
+
+    public Set<String> getKeySet() {
+        return CacheCore.getKeySet();
     }
 
 

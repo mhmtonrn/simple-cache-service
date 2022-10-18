@@ -37,11 +37,13 @@ public class CacheApi {
 
         return ResponseEntity.status(HttpStatus.OK).body("Ok");
     }
+
     @GetMapping("/{key}")
     public String get(@PathVariable("key") String key){
         LocalCache cache = LocalCache.getLocalCache();
        return cache.get(key,String.class);
     }
+    
     @GetMapping
     public Set<String> get(){
         return LocalCache.getLocalCache().getKeySet();

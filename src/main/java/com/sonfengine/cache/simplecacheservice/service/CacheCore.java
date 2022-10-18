@@ -4,6 +4,8 @@ import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 
 import java.util.Map;
+import java.util.Set;
+import java.util.Map.Entry;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
@@ -24,5 +26,9 @@ public class CacheCore {
     public static void remove(String key){
         System.out.println("removed "+key);
         cache.remove(key);
+    }
+
+    public static Set<String> getKeySet(){
+        return cache.keySet();
     }
 }
