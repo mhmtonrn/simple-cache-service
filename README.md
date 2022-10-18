@@ -3,6 +3,7 @@
 [![SonarCloud analysis](https://github.com/mhmtonrn/simple-cache-service/actions/workflows/sonarcloud.yml/badge.svg)](https://github.com/mhmtonrn/simple-cache-service/actions/workflows/sonarcloud.yml)
 [![Docker Image CI](https://github.com/mhmtonrn/simple-cache-service/actions/workflows/docker-image.yml/badge.svg?branch=master)](https://github.com/mhmtonrn/simple-cache-service/actions/workflows/docker-image.yml)
 
+Simple cache service is a cache mechanism for your application. Simple cache service runs in-memory mode thus your cached datas lost after service stopped.
 
 run with docker
 
