@@ -38,11 +38,6 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>com.softengine.cache</groupId>
-            <artifactId>local-cache</artifactId>
-            <version>1.0.2</version>
-        </dependency>
     </dependencies>
 
     <build>
