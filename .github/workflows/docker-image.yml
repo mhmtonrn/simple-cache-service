@@ -1,4 +1,4 @@
-name: ci
+name: DockerHub Push
 
 on:
   push:
