@@ -16,7 +16,7 @@ cahce runs in-memory
 ### to set no expire time cache
 ``` 
 POST /cache/ HTTP/1.1
-Host: localhost:8085
+Host: localhost:8080
 Content-Type: application/json
 Cache-Control: no-cache
 {
@@ -28,7 +28,7 @@ Cache-Control: no-cache
 ### to set cache with expire at after x millisecond
 ``` 
 POST /cache/ HTTP/1.1
-Host: localhost:8085
+Host: localhost:8080
 Content-Type: application/json
 Cache-Control: no-cache
 {
@@ -41,7 +41,7 @@ Cache-Control: no-cache
 ### to set cache with expire at given time
 ``` 
 POST /cache/ HTTP/1.1
-Host: localhost:8085
+Host: localhost:8080
 Content-Type: application/json
 Cache-Control: no-cache
 {
@@ -53,10 +53,10 @@ Cache-Control: no-cache
 
 ### To get cache value  
 ```shell
-curl -X GET http://localhost:8085/cache/{KEY}
+curl -X GET http://localhost:8080/cache/{KEY}
 ```
 
 ### To list key set
 ```shell
-curl -X GET http://localhost:8085/cache
+curl -X GET http://localhost:8080/cache
 ```
