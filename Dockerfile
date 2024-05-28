@@ -1,4 +1,4 @@
-FROM openjdk:11-jre-alpine
+FROM openjdk:11.0.7-jdk
 
 RUN ./mvnw clean package install
 
