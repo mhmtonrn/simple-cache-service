@@ -1,5 +1,7 @@
 FROM openjdk:11-jre-alpine
 
+./mvnw clean package install
+
 EXPOSE 8080
 
 WORKDIR /applications
