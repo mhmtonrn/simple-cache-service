@@ -1,6 +1,6 @@
 FROM openjdk:11.0.7-jdk
 
-RUN ./mvnw clean package install
+RUN mvn clean package install
 
 EXPOSE 8080
 
