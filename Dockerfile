@@ -6,6 +6,6 @@ EXPOSE 8080
 
 WORKDIR /applications
 
-COPY target/simple-cache-service-0.0.1-SNAPSHOT.jar /applications/simple-cache-service-0.0.1-SNAPSHOT.jar
+COPY target/*.jar /applications/simple-cache.jar
 
-ENTRYPOINT ["java","-jar", "simple-cache-service-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java","-jar", "simple-cache.jar"]
